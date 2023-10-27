@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Base from "./Base";
 import { useParams } from "react-router-dom/cjs/react-router-dom";
+import { API } from "../backend";
 
 const Lecture = () => {
   const params = useParams();
@@ -9,7 +10,7 @@ const Lecture = () => {
 
   const handleCourseClick = (courseId) => {
     // Fetch lectures for the selected course
-    fetch(`http://localhost:8000/api/lectures/${courseId}`)
+    fetch(`${API}lectures/${courseId}`)
       .then((response) => response.json())
       .then((data) => {
         console.log({ data });
