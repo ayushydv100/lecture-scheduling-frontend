@@ -1,0 +1,201 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #40514e;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+} */
+
+.background-colour-style {
+  background-color: #2b2e4a;
+}
+
+/* Making text bold */
+.bold-text {
+  font-weight: bold;
+}
+
+/* Define a custom class to style the background */
+.dark-bg {
+  background-color: #40514e; /* Replace 'your-color' with your desired background color */
+}
+
+.light-bg {
+  background-color: #11999e; /* Replace 'your-color' with your desired background color */
+}
+
+.course-container {
+  border-bottom: 0.5px solid #999;
+  padding-bottom: 10px; /* Optional padding to give some space below the border */
+  margin-bottom: 10px; /* Optional margin to separate the products visually */
+}
+
+.main-content {
+  min-height: calc(90vh - 100px); /* Adjust the 100px to your footer's height */
+  display: flex;
+  flex-direction: column;
+  background-color: #40514e;
+}
+
+.main-container {
+  background-color: #40514e;
+  color: #e84545;
+}
+
+/* styles.css */
+.custom-style {
+  background-color: #40514e;
+  color: #e84545;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+/* styles.css */
+.custom-style {
+  background-color: #40514e;
+  color: #e84545;
+}
+
+/* styles.css */
+.menu-background {
+  background-color: #11999e;
+}
+
+.menu-link {
+  color: #ffffff;
+}
+
+.menu-link-selected {
+  color: #40514e;
+}
+
+.menu-link:hover {
+  color: #ffffff; /* Set the hover color to the same as the default color */
+}
+
+/* styles.css */
+.card-container {
+  background-color: #40514e;
+  border-color: #11999e;
+}
+
+.card-header {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.card-description {
+  background-color: #11999e;
+  color: #ffffff;
+  font-weight: light;
+}
+
+.card-price {
+  background-color: #11999e;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.card-button {
+  color: #ffffff;
+  background-color: #11999e;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row-container {
+  background-color: #40514e;
+  border-color: #11999e;
+}
+
+/* .custom-product-name {
+  background-color: #40514e; /* Set your desired background color
+} */
+
+/* styles.css */
+.base-container {
+  background-color: #11999e;
+  color: #40514e;
+}
+
+.jumbotron-container {
+  background-color: #11999e;
+}
+
+.footer-container {
+  background-color: #11999e;
+}
+
+/* styles.css */
+.signin-container {
+  background-color: #40514e;
+}
+
+.alert-info {
+  background-color: #11999e;
+  color: #ffffff;
+}
+
+/* styles.css */
+/* styles.css */
+.signup-container {
+  background-color: #40514e;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.form-control {
+  color: #000000;
+}
+
+.form-button {
+  /* background-color: #008000; Change the button background color here */
+  color: #ffffff;
+}
+
+.alert-success {
+  display: none;
+  background-color: #008000;
+  color: #ffffff;
+}
+
+.alert-danger {
+  display: none;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+/* styles.css */
+.admin-container {
+  background-color: #40514e;
+}
+
+.card-header-admin {
+  background-color: #11999e;
+  color: #ffffff;
+}
+
+.nav-link-admin {
+  color: #11999e;
+}
+
+.list-group-item-admin {
+  color: #11999e;
+}
+
+.admin-badge {
+  color: #11999e;
+}
