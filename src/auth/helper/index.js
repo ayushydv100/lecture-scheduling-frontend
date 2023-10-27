@@ -2,6 +2,7 @@ import { API } from "../../backend";
 // API means localhost
 
 export const signup = (user) => {
+  console.log({ API });
   return fetch(`${API}signup`, {
     method: "POST",
     headers: {
